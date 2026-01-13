@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+    font-family: "sans-serif" ;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #181818;
+}
+
+header img{
+    background-color: #0B3D91;
+    color: white;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+header .box {
+  position: relative;
+}
+
+header .box img {
+  width: 100%;
+}
+
+header .box {
+  position: relative;
+}
+
+header .box img {
+  width: 100%;
+  display: block;
+}
+
+ header .box h1{
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  margin: 0;
+  background-color: transparent;
+}
+
+header div  h1 {
+  top: 100px;
+  font-size: 48px;
+}
+
+ header .menu{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    background-color: #181818;
+    flex-direction: row;
+}
+
+header .menu a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 13px;
+    font-weight: bold;
+    flex-direction: row;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px; 
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul a{
+   color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 13px;
+}
+
+header{
+  background-color: #181818;
+  nav {
+    padding: 30px 0;
+  }
+}
+h2{
+  text-align: center;
+  margin-top:  15px;
+  font-size: 25px;
+}
+
+#about{
+  width: 1000px;
+  height: auto;
+  margin-top: 29px;
+  padding: 80px;
+  border-radius: 15px;
+}
+
+main section .s{
+   position: absolute;
+   top: 1600px;
+   left: 1170px;
+   color: #d30000;
+}
+
+
+ main section #about-p{
+  position: absolute;
+   max-width: 600px;
+   color: white;
+   top: 1690px;
+   left: 1170px;
+   font-size: 19px;
+}
+
+.list{
+  position: relative;
+  top: -750px;
+  left: 1189px;
+  max-width: 600px;
+  color: white;
+  font-size: 19px;
+} 
+
+.services-h2{
+  position: absolute;
+  color: #d30000;
+  top: 2540px;
+  left: 48%;
+  font-size: 29px;
+}
+
+main section .x{
+  position: relative;
+  max-width: 700px;
+  color: white;
+  font-size: 19px;
+  top: -730px;
+  left: 1169px;
+}
+
+.container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  gap: 16px;
+  transition: 0.3s;
+
+}
+
+.container li{
+  position: relative;
+  overflow: hidden;
+  flex: 0 0 80px;
+  border-radius: 50px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1.2px solid white;
+    box-shadow: 5px 10px 15px rgba(0, 0, 0, 0.4),
+   -2px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container li img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   translate: -50% -50%;
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.container li
+.container li img
+{
+    transition: 0.3s;
+}
+.container li content{
+     transition: 1.5s ease;
+}
+
+.container span{
+  text-align: center;
+  width: 75%;
+}
+
+.container h2{
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 4px;
+  margin-bottom: 3px;
+  white-space: nowrap;
+  color: #eee;
+}
+
+.container p{
+  color: #ddd;
+  font-size: 10px;
+  width: 100%;
+}
+
+.container li .content{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  color: #fff;
+  padding: 15px;
+  background: 
+  linear-gradient(
+    0deg, rgba(0 0 0 /70%) 10%,
+    rgba(255 255 255 /0%)  100%
+    );
+    opacity: 0;
+    visibility: hidden;
+}
+
+.container:hover{
+  gap: 0;
+}
+
+.container li .content span{
+  position: absolute;
+  z-index: 3;
+  left: 50%;
+  bottom: 0px;
+  translate: -50%;
+  scale: 0.85;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.container li:hover{
+  flex: 0 1 260px;
+  scale: 1.1;
+  z-index: 10;
+  opacity: 1;
+}
+
+.container li img{
+}
+.container li:hover .content{
+  opacity: 1;
+  visibility: visible;
+}
+
+.container li:hover span{
+  scale: 1;
+  opacity: 1;
+  visibility: visible;
+}
